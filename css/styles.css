@@ -7,6 +7,7 @@
 /* Doing this mainly to stick footer at the bottom of the page. */
 body {
     min-height: 100vh;
+    min-width: 1200px;
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +16,6 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    min-width: 1000px;
     justify-content: center;
 }
 
@@ -190,7 +190,7 @@ body {
 
 .section-four .sign-up-container .sign-up-phrases p.first-text {
     font-size: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gotic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     color: white;
 }
