@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Doing this mainly to stick footer at the bottom of the page. */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+    justify-content: center;
+}
+
+/* Navbar */
+.header .navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .navbar .left-side ul,
+.header .navbar .right-side ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header .navbar .right-side ul {
+    gap: 20px;
+}
+
+.header .navbar .left-side ul li a {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+.header .navbar .right-side ul li a {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+/* header's content */
+.header-content {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-content .text-and-signup {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+}
+
+.header-content .text-and-signup h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    font-weight:bolder;
+    color: white;
+}
+
+.header-content .text-and-signup p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.header-content .text-and-signup button {
+    width: 125px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header-content .image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+/* Section two. */
+.section-two {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.section-two .heading {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.section-two .boxes {
+    display: flex;
+    gap: 40px;
+    padding-top: 25px;
+}
+
+.section-two .boxes div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-two .boxes .box {
+    border: 2px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.section-two .boxes div p {
+    width: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* Section three. */
+.section-three {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.section-three .quote-and-author-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three .quote-and-author-container .quote {
+    width: 1200px;
+    min-width: 1000px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-three .quote-and-author-container .author {
+    align-self: flex-end;
+    font-size: 28px;
+}
+
+/* Section four. */
+.section-four {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four .sign-up-container {
+    display: flex;
+    width: 1200px;
+    height: 175px;
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-four .sign-up-container .sign-up-phrases p.first-text {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.section-four .sign-up-container .sign-up-phrases p.second-text {
+    font-size: 18px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section-four .sign-up-container button {
+    width: 125px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer {
+    /* To place footer at bottom */
+    height: 80px;
+    margin-top: auto;
+
+    /* vertically & horizontally centering text inside footer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1F2937
+}
+
+.footer p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
